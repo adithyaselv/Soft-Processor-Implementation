@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;vs&quot; LOC = U3&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;red(2)&quot; LOC = R8&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;red(1)&quot; LOC = T8&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;red(0)&quot; LOC = R9&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;r17&quot; LOC = R17&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;r12&quot; LOC = R12&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;p11&quot; LOC = P11&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;hs&quot; LOC = T4&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;green(2)&quot; LOC = P6&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;green(1)&quot; LOC = P8&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;green(0)&quot; LOC = N8&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;gateway_out&quot; LOC = J14&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;g18&quot; LOC = G18&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;clk&quot; LOC = B8&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;blue(1)&quot; LOC = U4&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >A target design object for the Locate constraint &apos;&lt;NET &quot;blue(0)&quot; LOC = U5&gt;&apos; could not be found and so the Locate constraint will be removed.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;vs&quot; LOC = U3&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">vs</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;vs&quot; LOC = &quot;U3&quot;;&gt; [keyboard_dino_computer_v12_cw.ucf(59)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;red(2)&quot; LOC = R8&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">red(2)</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;red(2)&quot; LOC = &quot;R8&quot;;&gt; [keyboard_dino_computer_v12_cw.ucf(56)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;red(1)&quot; LOC = T8&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">red(1)</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;red(1)&quot; LOC = &quot;T8&quot;;&gt; [keyboard_dino_computer_v12_cw.ucf(57)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;red(0)&quot; LOC = R9&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">red(0)</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;red(0)&quot; LOC = &quot;R9&quot;;&gt; [keyboard_dino_computer_v12_cw.ucf(58)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;r17&quot; LOC = R17&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">r17</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;r17&quot; LOC = &quot;R17&quot;;&gt; [keyboard_dino_computer_v12_cw.ucf(55)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;r12&quot; LOC = R12&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">r12</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;r12&quot; LOC = &quot;R12&quot;;&gt; [keyboard_dino_computer_v12_cw.ucf(54)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;p11&quot; LOC = P11&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">p11</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;p11&quot; LOC = &quot;P11&quot;;&gt; [keyboard_dino_computer_v12_cw.ucf(53)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;hs&quot; LOC = T4&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">hs</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;hs&quot; LOC = &quot;T4&quot;;&gt; [keyboard_dino_computer_v12_cw.ucf(52)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;green(2)&quot; LOC = P6&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">green(2)</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;green(2)&quot; LOC = &quot;P6&quot;;&gt; [keyboard_dino_computer_v12_cw.ucf(49)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;green(1)&quot; LOC = P8&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">green(1)</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;green(1)&quot; LOC = &quot;P8&quot;;&gt; [keyboard_dino_computer_v12_cw.ucf(50)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;green(0)&quot; LOC = N8&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">green(0)</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;green(0)&quot; LOC = &quot;N8&quot;;&gt; [keyboard_dino_computer_v12_cw.ucf(51)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;gateway_out&quot; LOC = J14&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">gateway_out</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;gateway_out&quot; LOC = &quot;J14&quot;;&gt; [keyboard_dino_computer_v12_cw.ucf(48)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;g18&quot; LOC = G18&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">g18</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;g18&quot; LOC = &quot;G18&quot;;&gt; [keyboard_dino_computer_v12_cw.ucf(47)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;clk&quot; LOC = B8&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">clk</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;clk&quot; LOC = &quot;B8&quot;;&gt; [keyboard_dino_computer_v12_cw.ucf(46)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;blue(1)&quot; LOC = U4&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">blue(1)</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;blue(1)&quot; LOC = &quot;U4&quot;;&gt; [keyboard_dino_computer_v12_cw.ucf(44)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;NET &quot;blue(0)&quot; LOC = U5&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">blue(0)</arg> by the constraint <arg fmt="%s" index="3">&lt;NET &quot;blue(0)&quot; LOC = &quot;U5&quot;;&gt; [keyboard_dino_computer_v12_cw.ucf(45)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">default_clock_driver_keyboard_dino_computer_v12_x0/xlclockdriver_8/pipelined_ce_logic.ce_logic_pipeline[1].ce_logic_reg/latency_gt_0.fd_array[1].reg_comp/fd_prim_array[0].bit_is_0.fdre_comp</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">default_clock_driver_keyboard_dino_computer_v12_x0/xlclockdriver_50000000/pipelined_ce_logic.ce_logic_pipeline[1].ce_logic_reg/latency_gt_0.fd_array[1].reg_comp/fd_prim_array[0].bit_is_0.fdre_comp</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">default_clock_driver_keyboard_dino_computer_v12_x0/xlclockdriver_20/pipelined_ce_logic.ce_logic_pipeline[1].ce_logic_reg/latency_gt_0.fd_array[1].reg_comp/fd_prim_array[0].bit_is_0.fdre_comp</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">default_clock_driver_keyboard_dino_computer_v12_x0/xlclockdriver_2/pipelined_ce_logic.ce_logic_pipeline[1].ce_logic_reg/latency_gt_0.fd_array[1].reg_comp/fd_prim_array[0].bit_is_0.fdre_comp</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">default_clock_driver_keyboard_dino_computer_v12_x0/xlclockdriver_1/clr_reg/latency_gt_0.fd_array[1].reg_comp/fd_prim_array[0].bit_is_0.fdre_comp</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">keyboard_dino_computer_v12_x0/clk_sel_c42c01b52e/clk_2_sec_4134bbad8f/up_sample/sel_gen</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="443" delta="old" >SFF primitive &apos;<arg fmt="%s" index="1">keyboard_dino_computer_v12_x0/clk_sel_c42c01b52e/clk_80_ns_35b48227f5/up_sample/sel_gen</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="old" >FF primitive &apos;<arg fmt="%s" index="1">keyboard_dino_computer_v12_x0/keyboard_driver_219ad70251/digital_filter_ps2_c_fec93e82de/serial_to_parallel1/msb_is_first.fd_array1[7].comp/partial_one.last_srl17e/reg_array[0].fde_used.u2</arg>&apos; has unconnected output pin
+</msg>
+
+</messages>
+

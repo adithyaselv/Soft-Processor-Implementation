@@ -1,0 +1,59 @@
+
+
+# Global period constraint
+NET "clk" TNM_NET = "clk_0ebed376";
+TIMESPEC "TS_clk_0ebed376" = PERIOD "clk_0ebed376" 20.0 ns HIGH 50 %;
+
+# ce_20_0ebed376_group and inner group constraint
+NET "ce_20_sg_x2*" TNM_NET = "ce_20_0ebed376_group";
+TIMESPEC "TS_ce_20_0ebed376_group_to_ce_20_0ebed376_group" = FROM "ce_20_0ebed376_group" TO "ce_20_0ebed376_group" 400.0 ns;
+
+# ce_2_0ebed376_group and inner group constraint
+NET "ce_2_sg_x1*" TNM_NET = "ce_2_0ebed376_group";
+TIMESPEC "TS_ce_2_0ebed376_group_to_ce_2_0ebed376_group" = FROM "ce_2_0ebed376_group" TO "ce_2_0ebed376_group" 40.0 ns;
+
+# ce_50000000_0ebed376_group and inner group constraint
+NET "ce_50000000_sg_x2*" TNM_NET = "ce_50000000_0ebed376_group";
+TIMESPEC "TS_ce_50000000_0ebed376_group_to_ce_50000000_0ebed376_group" = FROM "ce_50000000_0ebed376_group" TO "ce_50000000_0ebed376_group" 1000.0 ms;
+
+# ce_8_0ebed376_group and inner group constraint
+NET "ce_8_sg_x2*" TNM_NET = "ce_8_0ebed376_group";
+TIMESPEC "TS_ce_8_0ebed376_group_to_ce_8_0ebed376_group" = FROM "ce_8_0ebed376_group" TO "ce_8_0ebed376_group" 160.0 ns;
+
+# Group-to-group constraints
+TIMESPEC "TS_ce_20_0ebed376_group_to_ce_2_0ebed376_group" = FROM "ce_20_0ebed376_group" TO "ce_2_0ebed376_group" 40.0 ns;
+TIMESPEC "TS_ce_20_0ebed376_group_to_ce_50000000_0ebed376_group" = FROM "ce_20_0ebed376_group" TO "ce_50000000_0ebed376_group" 400.0 ns;
+TIMESPEC "TS_ce_20_0ebed376_group_to_ce_8_0ebed376_group" = FROM "ce_20_0ebed376_group" TO "ce_8_0ebed376_group" 80.0 ns;
+TIMESPEC "TS_ce_2_0ebed376_group_to_ce_20_0ebed376_group" = FROM "ce_2_0ebed376_group" TO "ce_20_0ebed376_group" 40.0 ns;
+TIMESPEC "TS_ce_2_0ebed376_group_to_ce_50000000_0ebed376_group" = FROM "ce_2_0ebed376_group" TO "ce_50000000_0ebed376_group" 40.0 ns;
+TIMESPEC "TS_ce_2_0ebed376_group_to_ce_8_0ebed376_group" = FROM "ce_2_0ebed376_group" TO "ce_8_0ebed376_group" 40.0 ns;
+TIMESPEC "TS_ce_50000000_0ebed376_group_to_ce_20_0ebed376_group" = FROM "ce_50000000_0ebed376_group" TO "ce_20_0ebed376_group" 400.0 ns;
+TIMESPEC "TS_ce_50000000_0ebed376_group_to_ce_2_0ebed376_group" = FROM "ce_50000000_0ebed376_group" TO "ce_2_0ebed376_group" 40.0 ns;
+TIMESPEC "TS_ce_50000000_0ebed376_group_to_ce_8_0ebed376_group" = FROM "ce_50000000_0ebed376_group" TO "ce_8_0ebed376_group" 160.0 ns;
+TIMESPEC "TS_ce_8_0ebed376_group_to_ce_20_0ebed376_group" = FROM "ce_8_0ebed376_group" TO "ce_20_0ebed376_group" 80.0 ns;
+TIMESPEC "TS_ce_8_0ebed376_group_to_ce_2_0ebed376_group" = FROM "ce_8_0ebed376_group" TO "ce_2_0ebed376_group" 40.0 ns;
+TIMESPEC "TS_ce_8_0ebed376_group_to_ce_50000000_0ebed376_group" = FROM "ce_8_0ebed376_group" TO "ce_50000000_0ebed376_group" 160.0 ns;
+
+# Offset in constraints
+
+# Offset out constraints
+
+# Offset inout constraints
+
+# LOC constraints
+NET "blue(1)" LOC = "U4";
+NET "blue(0)" LOC = "U5";
+NET "clk" LOC = "B8";
+NET "g18" LOC = "G18";
+NET "gateway_out" LOC = "J14";
+NET "green(2)" LOC = "P6";
+NET "green(1)" LOC = "P8";
+NET "green(0)" LOC = "N8";
+NET "hs" LOC = "T4";
+NET "p11" LOC = "P11";
+NET "r12" LOC = "R12";
+NET "r17" LOC = "R17";
+NET "red(2)" LOC = "R8";
+NET "red(1)" LOC = "T8";
+NET "red(0)" LOC = "R9";
+NET "vs" LOC = "U3";

@@ -1,0 +1,38 @@
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = spartan3e
+SET simulationfiles = Behavioral
+SET devicefamily = spartan3e
+SET device = xc3s1200e
+SET package = fg320
+SET speedgrade = -4
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Distributed_Memory_Generator spartan3e Xilinx,_Inc. 7.2
+# 14.5_P.55
+# DEVICE spartan3e
+# VHDL
+CSET ce_overrides = sync_controls_overrides_ce
+CSET coefficient_file = dmg_72_a855b3c96ef0620d.coe
+CSET common_output_ce = false
+CSET common_output_clk = false
+CSET data_width = 16
+CSET default_data = 0
+CSET default_data_radix = 16
+CSET depth = 1024
+CSET dual_port_address = non_registered
+CSET dual_port_output_clock_enable = false
+CSET input_clock_enable = false
+CSET input_options = non_registered
+CSET memory_type = dual_port_ram
+CSET output_options = non_registered
+CSET qualify_we_with_i_ce = false
+CSET reset_qdpo = false
+CSET reset_qspo = false
+CSET single_port_output_clock_enable = false
+CSET sync_reset_qdpo = false
+CSET sync_reset_qspo = false
+CSET component_name = dmg_72_a855b3c96ef0620d
+GENERATE

@@ -1,0 +1,36 @@
+
+SETPROJECT ./
+SET ASYSymbol = false
+SET BusFormat = BusFormatParenNotRipped
+SET XilinxFamily = spartan3e
+SET simulationfiles = Behavioral
+SET devicefamily = spartan3e
+SET device = xc3s1200e
+SET package = fg320
+SET speedgrade = -4
+SET VerilogSim = false
+SET VHDLSim = true
+SELECT Binary_Counter spartan3e Xilinx,_Inc. 11.0
+# 14.5_P.55
+# DEVICE spartan3e
+# VHDL
+CSET ainit_value = 1
+CSET ce = true
+CSET count_mode = UP
+CSET fb_latency = 0
+CSET final_count_value = 1
+CSET implementation = Fabric
+CSET increment_value = 1
+CSET latency = 1
+CSET load = false
+CSET output_width = 2
+CSET restrict_count = false
+CSET sclr = false
+CSET sinit = true
+CSET sinit_value = 1
+CSET sset = false
+CSET sync_ce_priority = Sync_Overrides_CE
+CSET sync_threshold_output = false
+CSET syncctrlpriority = Reset_Overrides_Set
+CSET component_name = cntr_11_0_a80ae8f33755e346
+GENERATE

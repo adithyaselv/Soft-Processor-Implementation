@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/Users/Adithya/Desktop/Nand2tetriswork/Nand_2_Tetris_V12_Fun_31_3_2016/Dino_animate_jump/keyboard_dino_computer_v12_cw.xst" -ofn "C:/Users/Adithya/Desktop/Nand2tetriswork/Nand_2_Tetris_V12_Fun_31_3_2016/Dino_animate_jump/keyboard_dino_computer_v12_cw.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc keyboard_dino_computer_v12_cw.ucf -p xc3s1200e-fg320-4 keyboard_dino_computer_v12_cw.ngc keyboard_dino_computer_v12_cw.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -timing -logic_opt off -ol high -t 1 -register_duplication on -cm area -ir off -pr off -power off -o keyboard_dino_computer_v12_cw_map.ncd keyboard_dino_computer_v12_cw.ngd keyboard_dino_computer_v12_cw.pcf 
+par -w -intstyle ise -ol high -t 1 keyboard_dino_computer_v12_cw_map.ncd keyboard_dino_computer_v12_cw.ncd keyboard_dino_computer_v12_cw.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml keyboard_dino_computer_v12_cw.twx keyboard_dino_computer_v12_cw.ncd -o keyboard_dino_computer_v12_cw.twr keyboard_dino_computer_v12_cw.pcf -ucf keyboard_dino_computer_v12_cw.ucf 
+bitgen -intstyle ise -f keyboard_dino_computer_v12_cw.ut keyboard_dino_computer_v12_cw.ncd 
+xst -intstyle ise -ifn "C:/Users/Adithya/Desktop/Nand2tetriswork/Nand_2_Tetris_V12_Fun_31_3_2016/Dino_animate_jump/keyboard_dino_computer_v12_cw.xst" -ofn "C:/Users/Adithya/Desktop/Nand2tetriswork/Nand_2_Tetris_V12_Fun_31_3_2016/Dino_animate_jump/keyboard_dino_computer_v12_cw.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc keyboard_dino_computer_v12_cw.ucf -p xc3s1200e-fg320-4 keyboard_dino_computer_v12_cw.ngc keyboard_dino_computer_v12_cw.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -timing -logic_opt off -ol high -t 1 -register_duplication on -cm area -ir off -pr off -power off -o keyboard_dino_computer_v12_cw_map.ncd keyboard_dino_computer_v12_cw.ngd keyboard_dino_computer_v12_cw.pcf 
+par -w -intstyle ise -ol high -t 1 keyboard_dino_computer_v12_cw_map.ncd keyboard_dino_computer_v12_cw.ncd keyboard_dino_computer_v12_cw.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml keyboard_dino_computer_v12_cw.twx keyboard_dino_computer_v12_cw.ncd -o keyboard_dino_computer_v12_cw.twr keyboard_dino_computer_v12_cw.pcf -ucf keyboard_dino_computer_v12_cw.ucf 
+bitgen -intstyle ise -f keyboard_dino_computer_v12_cw.ut keyboard_dino_computer_v12_cw.ncd 

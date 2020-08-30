@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Adithya\Desktop\Nand2tetriswork\Nand_2_Tetris_V12_Fun_31_3_2016\VGA_Keyboard_Computer_V4\keyboard_dino_computer_v12_cw.ncd
+OUTFILE=C:\Users\Adithya\Desktop\Nand2tetriswork\Nand_2_Tetris_V12_Fun_31_3_2016\VGA_Keyboard_Computer_V4\keyboard_dino_computer_v12_cw.bit
+FAMILY=Spartan3E
+PART=xc3s1200e-4fg320
+WORKINGDIR=C:\Users\Adithya\Desktop\Nand2tetriswork\Nand_2_Tetris_V12_Fun_31_3_2016\VGA_Keyboard_Computer_V4
+LICENSE=WebPack
+USER_INFO=__0_0_0

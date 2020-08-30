@@ -1,0 +1,27 @@
+{
+  'diff' => {
+    'attributes' => {
+      'added' => [
+      ],
+      'modified' => [
+      ],
+      'removed' => [
+      ],
+    },
+    'changed' => 0,
+    'files' => {
+      'added' => [
+      ],
+      'common' => [
+        'bmg_72_9feca0d304d5757b.mif',
+        'keyboard_dino_computer_v12.vhd',
+        'keyboard_dino_computer_v12_cw.ucf',
+        'keyboard_dino_computer_v12_cw.vhd',
+        'dmg_72_486d14eecadccd6c.mif',
+        'bmg_72_e8fe9883cd15d256.mif',
+      ],
+      'removed' => [
+      ],
+    },
+  },
+}

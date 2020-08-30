@@ -1,0 +1,227 @@
+Release 14.5 Physical Synthesis Report P.58f (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc. All rights reserved.
+
+TABLE OF CONTENTS
+  1) Physical Synthesis Options Summary
+  2) Optimizations statistics and details
+
+
+=========================================================================
+*                 Physical Synthesis Options Summary                    *
+=========================================================================
+---- Options
+Global Optimization                 : OFF
+    Retiming                        : OFF
+    Equivalent Register Removal     : OFF
+Timing-Driven Packing and Placement : ON
+    Logic Optimization              : OFF
+    Register Duplication            : ON
+
+---- Intelligent clock gating       : OFF
+
+---- Target Parameters
+Target Device                       : 3s1200efg320-4
+
+=========================================================================
+
+
+=========================================================================
+*                        Optimizations                                  *
+=========================================================================
+---- Statistics
+   Number of registers added by Replication                  | 156             
+   Number of registers added by Reduce Maximum Fanout        | 27              
+
+   Overall change in number of design objects                | +183             
+
+
+---- Details
+
+New or modified components                             | Optimization             | Objective           
+-------------------------------------------------------|--------------------------|----------------------
+ce_2_sg_x1_REPLICA_121                                 | Reduce Maximum Fanout    | Fanout Optimization
+ce_2_sg_x1_REPLICA_122                                 | Reduce Maximum Fanout    | Fanout Optimization
+ce_2_sg_x1_REPLICA_123                                 | Reduce Maximum Fanout    | Fanout Optimization
+ce_2_sg_x1_REPLICA_124                                 | Reduce Maximum Fanout    | Fanout Optimization
+ce_2_sg_x1_REPLICA_125                                 | Reduce Maximum Fanout    | Fanout Optimization
+ce_2_sg_x1_REPLICA_126                                 | Reduce Maximum Fanout    | Fanout Optimization
+ce_2_sg_x1_REPLICA_127                                 | Reduce Maximum Fanout    | Fanout Optimization
+ce_50000000_sg_x2_REPLICA_129                          | Reduce Maximum Fanout    | Fanout Optimization
+ce_8_sg_x2_REPLICA_128                                 | Reduce Maximum Fanout    | Fanout Optimization
+default_clock_driver_keyboard_dino_computer_v12_x0/xlclockdriver_2/ce_vec(1)_REPLICA_137| Reduce Maximum Fanout    | Fanout Optimization
+default_clock_driver_keyboard_dino_computer_v12_x0/xlclockdriver_2/ce_vec(1)_REPLICA_138| Reduce Maximum Fanout    | Fanout Optimization
+default_clock_driver_keyboard_dino_computer_v12_x0/xlclockdriver_2/ce_vec(1)_REPLICA_139| Reduce Maximum Fanout    | Fanout Optimization
+default_clock_driver_keyboard_dino_computer_v12_x0/xlclockdriver_2/ce_vec(2)_REPLICA_140| Reduce Maximum Fanout    | Fanout Optimization
+default_clock_driver_keyboard_dino_computer_v12_x0/xlclockdriver_2/ce_vec(2)_REPLICA_141| Reduce Maximum Fanout    | Fanout Optimization
+default_clock_driver_keyboard_dino_computer_v12_x0/xlclockdriver_2/ce_vec(2)_REPLICA_142| Reduce Maximum Fanout    | Fanout Optimization
+default_clock_driver_keyboard_dino_computer_v12_x0/xlclockdriver_2/ce_vec(3)_REPLICA_143| Reduce Maximum Fanout    | Fanout Optimization
+default_clock_driver_keyboard_dino_computer_v12_x0/xlclockdriver_2/ce_vec(3)_REPLICA_144| Reduce Maximum Fanout    | Fanout Optimization
+default_clock_driver_keyboard_dino_computer_v12_x0/xlclockdriver_2/ce_vec(3)_REPLICA_145| Reduce Maximum Fanout    | Fanout Optimization
+default_clock_driver_keyboard_dino_computer_v12_x0/xlclockdriver_2/ce_vec(4)_REPLICA_146| Reduce Maximum Fanout    | Fanout Optimization
+default_clock_driver_keyboard_dino_computer_v12_x0/xlclockdriver_2/ce_vec(4)_REPLICA_147| Reduce Maximum Fanout    | Fanout Optimization
+default_clock_driver_keyboard_dino_computer_v12_x0/xlclockdriver_50000000/ce_vec(1)_REPLICA_134| Reduce Maximum Fanout    | Fanout Optimization
+default_clock_driver_keyboard_dino_computer_v12_x0/xlclockdriver_50000000/ce_vec(2)_REPLICA_135| Reduce Maximum Fanout    | Fanout Optimization
+default_clock_driver_keyboard_dino_computer_v12_x0/xlclockdriver_50000000/ce_vec(3)_REPLICA_136| Reduce Maximum Fanout    | Fanout Optimization
+default_clock_driver_keyboard_dino_computer_v12_x0/xlclockdriver_8/ce_vec(1)_REPLICA_130| Reduce Maximum Fanout    | Fanout Optimization
+default_clock_driver_keyboard_dino_computer_v12_x0/xlclockdriver_8/ce_vec(2)_REPLICA_131| Reduce Maximum Fanout    | Fanout Optimization
+default_clock_driver_keyboard_dino_computer_v12_x0/xlclockdriver_8/ce_vec(3)_REPLICA_132| Reduce Maximum Fanout    | Fanout Optimization
+default_clock_driver_keyboard_dino_computer_v12_x0/xlclockdriver_8/ce_vec(4)_REPLICA_133| Reduce Maximum Fanout    | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_0_REPLICA_63| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_0_REPLICA_64| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_0_REPLICA_65| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_0_REPLICA_66| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_0_REPLICA_67| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_0_REPLICA_68| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_0_REPLICA_69| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_0_REPLICA_70| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_0_REPLICA_71| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_0_REPLICA_71_REPLICA_162| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_0_REPLICA_72| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_0_REPLICA_72_REPLICA_150| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_0_REPLICA_73| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_0_REPLICA_74| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_0_REPLICA_75| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_0_REPLICA_75_REPLICA_164| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_0_REPLICA_76| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_0_REPLICA_77| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_0_REPLICA_77_REPLICA_159| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_0_REPLICA_78| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_0_REPLICA_79| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_0_REPLICA_80| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_0_REPLICA_81| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_0_REPLICA_81_REPLICA_165| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_0_REPLICA_82| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_0_REPLICA_83| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_1_REPLICA_42| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_1_REPLICA_42_REPLICA_179| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_1_REPLICA_43| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_1_REPLICA_43_REPLICA_180| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_1_REPLICA_44| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_1_REPLICA_45| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_1_REPLICA_46| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_1_REPLICA_46_REPLICA_177| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_1_REPLICA_47| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_1_REPLICA_47_REPLICA_181| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_1_REPLICA_48| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_1_REPLICA_48_REPLICA_182| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_1_REPLICA_49| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_1_REPLICA_50| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_1_REPLICA_50_REPLICA_169| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_1_REPLICA_51| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_1_REPLICA_51_REPLICA_166| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_1_REPLICA_52| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_1_REPLICA_52_REPLICA_174| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_1_REPLICA_53| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_1_REPLICA_54| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_1_REPLICA_55| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_1_REPLICA_56| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_1_REPLICA_56_REPLICA_154| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_1_REPLICA_57| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_1_REPLICA_58| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_1_REPLICA_59| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_1_REPLICA_60| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_1_REPLICA_60_REPLICA_163| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_1_REPLICA_61| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_1_REPLICA_62| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_2_REPLICA_21| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_2_REPLICA_22| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_2_REPLICA_22_REPLICA_176| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_2_REPLICA_23| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_2_REPLICA_24| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_2_REPLICA_25| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_2_REPLICA_26| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_2_REPLICA_26_REPLICA_175| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_2_REPLICA_27| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_2_REPLICA_27_REPLICA_173| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_2_REPLICA_28| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_2_REPLICA_29| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_2_REPLICA_29_REPLICA_155| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_2_REPLICA_30| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_2_REPLICA_30_REPLICA_148| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_2_REPLICA_31| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_2_REPLICA_31_REPLICA_158| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_2_REPLICA_32| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_2_REPLICA_33| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_2_REPLICA_34| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_2_REPLICA_35| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_2_REPLICA_35_REPLICA_152| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_2_REPLICA_36| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_2_REPLICA_37| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_2_REPLICA_38| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_2_REPLICA_39| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_2_REPLICA_39_REPLICA_160| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_2_REPLICA_40| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_2_REPLICA_41| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_3_REPLICA_0| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_3_REPLICA_0_REPLICA_167| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_3_REPLICA_1| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_3_REPLICA_10| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_3_REPLICA_10_REPLICA_156| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_3_REPLICA_11| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_3_REPLICA_12| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_3_REPLICA_13| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_3_REPLICA_14| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_3_REPLICA_14_REPLICA_149| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_3_REPLICA_15| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_3_REPLICA_16| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_3_REPLICA_17| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_3_REPLICA_18| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_3_REPLICA_18_REPLICA_157| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_3_REPLICA_19| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_3_REPLICA_1_REPLICA_168| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_3_REPLICA_2| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_3_REPLICA_20| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_3_REPLICA_3| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_3_REPLICA_3_REPLICA_171| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_3_REPLICA_4| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_3_REPLICA_4_REPLICA_178| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_3_REPLICA_5| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_3_REPLICA_5_REPLICA_161| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_3_REPLICA_6| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_3_REPLICA_6_REPLICA_170| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_3_REPLICA_7| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_3_REPLICA_7_REPLICA_172| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_3_REPLICA_8| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_3_REPLICA_8_REPLICA_153| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_3_REPLICA_9| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_3_REPLICA_9_REPLICA_151| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_4_REPLICA_84| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_4_REPLICA_85| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_4_REPLICA_86| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_4_REPLICA_87| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_4_REPLICA_88| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_4_REPLICA_89| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_4_REPLICA_90| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_4_REPLICA_91| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_4_REPLICA_92| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_4_REPLICA_93| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_5_REPLICA_100| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_5_REPLICA_101| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_5_REPLICA_102| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_5_REPLICA_103| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_5_REPLICA_94| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_5_REPLICA_95| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_5_REPLICA_96| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_5_REPLICA_97| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_5_REPLICA_98| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_5_REPLICA_99| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_6_REPLICA_104| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_6_REPLICA_105| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_6_REPLICA_106| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_6_REPLICA_107| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_6_REPLICA_108| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_6_REPLICA_109| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_6_REPLICA_110| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_6_REPLICA_111| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_6_REPLICA_112| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_6_REPLICA_113| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_7_REPLICA_114| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_7_REPLICA_115| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_7_REPLICA_116| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_7_REPLICA_117| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_7_REPLICA_118| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_7_REPLICA_119| Replication              | Fanout Optimization
+keyboard_dino_computer_v12_x0/computer_423aa40c4b/cpu_010c49f8f4/delay5/op_mem_20_24_0_7_REPLICA_120| Replication              | Fanout Optimization
+
+   Flops added for Enable Generation                       
+-------------------------
